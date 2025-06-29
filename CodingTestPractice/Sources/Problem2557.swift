@@ -7,10 +7,11 @@
 
 import Foundation
 
+/**
+ https://www.acmicpc.net/problem/2557
+ 
+ Hello World!를 출력하시오.
+ */
 func solveProblem2557() {
-    let numbers = readLine()!.split(separator: " ").map { Int($0)! }
-    let a = numbers[0]
-    let b = numbers[1]
-    print(a + b)
-
+    print("Hello World!")
 }
