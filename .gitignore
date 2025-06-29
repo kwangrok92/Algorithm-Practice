@@ -1,0 +1,7 @@
+# .gitignore
+*.xcuserdata
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+build/
+.DS_Store
