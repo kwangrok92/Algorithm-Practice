@@ -7,4 +7,4 @@
 
 import Foundation
 
-solveProblem2577()
+solveProblem10926()
