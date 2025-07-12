@@ -47,5 +47,22 @@ import Foundation
  30
  */
 func solveProblem8958() {
-    // TODO: 문제 풀이를 여기에 작성하세요.
+    let testCaseCount = Int(readLine()!)!
+    
+    for _ in 0..<testCaseCount {
+        let input = readLine()!
+        var score = 0
+        var consecutive = 0
+        
+        for char in input {
+            if char == "O" {
+                consecutive += 1
+                score += consecutive
+            } else {
+                consecutive = 0
+            }
+        }
+        
+        print(score)
+    }
 }
